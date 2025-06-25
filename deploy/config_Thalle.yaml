@@ -1,0 +1,11 @@
+# config.yaml
+
+model: KBTG-Labs/THaLLE-0.1-7B-fa
+host: "0.0.0.0"
+port: 3000
+gpu-memory-utilization: 0.3  # Reduced to fit available VRAM
+api-key: "focus-deploy"
+uvicorn-log-level: "info"
+max-model-len: 4028  
+max-num-seqs: 32    
+max-num-batched-tokens: 4096 
