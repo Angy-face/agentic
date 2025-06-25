@@ -3,6 +3,6 @@
 model : Qwen/Qwen3-14B
 host: "0.0.0.0"
 port: 7777
-gpu-memory-utilization: 0.3
+gpu-memory-utilization: 0.4
 api-key: "focus-deploy"
 uvicorn-log-level: "info"

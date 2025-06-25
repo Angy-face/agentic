@@ -3,8 +3,7 @@
 model: Qwen/Qwen3-Embedding-0.6B
 host: "0.0.0.0"
 port: 5000
-task: embed
-gpu-memory-utilization: 0.3
+task: "embed"
 api-key: "focus-deploy"
 uvicorn-log-level: "info"
-max-num-seqs: 32    
+enforce_eager : true
